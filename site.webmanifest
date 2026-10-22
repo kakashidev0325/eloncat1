@@ -1,0 +1,14 @@
+{
+  "name": "Elon's Cat — $SCHRODINGER",
+  "short_name": "SCHRODINGER",
+  "description": "Elon's Cat. A community memecoin on Solana. The cat that broke the internet.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#070814",
+  "theme_color": "#070814",
+  "icons": [
+    { "src": "assets/favicon-32.png", "sizes": "32x32", "type": "image/png" },
+    { "src": "assets/apple-touch-icon.png", "sizes": "180x180", "type": "image/png" },
+    { "src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
