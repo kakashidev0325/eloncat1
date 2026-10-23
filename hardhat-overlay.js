@@ -30,7 +30,7 @@
     hatReady = true;
     draw();
   };
-  hatImg.src = "assets/mascot.png";
+  hatImg.src = "assets/mascot.jpg";
 
   /* ---------- image loading ---------- */
 

@@ -50,7 +50,7 @@
   var sue = new Image();
   var sueReady = false;
   sue.onload = function () { sueReady = true; draw(); };
-  sue.src = "assets/mascot.png";
+  sue.src = "assets/mascot.jpg";
 
   /* ---------- colour helpers ---------- */
 

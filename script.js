@@ -6,7 +6,7 @@
 /* ─────────────────────────────────────────────────────────────
    EDIT THIS BLOCK. Everything else on the site reads from it.
    Leave a value as "" and the site handles it gracefully:
-     · empty contract  → shows "DizqV61r74gU6f7LA9F14rX6NyMSdw4NmX4Zgdg7pump" instead of a fake CA
+     · empty contract  → shows "TBA" until the mint is published
      · empty link      → button points at the X account instead
    ───────────────────────────────────────────────────────────── */
 const CONFIG = {
@@ -19,8 +19,8 @@ const CONFIG = {
   scan:     "",
 
   // Socials
-  twitter:  "https://x.com/eloncatsol_x",
-  telegram: "https://t.me/eloncat_tg",
+  twitter:  "https://x.com/schrodingeronx",
+  telegram: "https://t.me/schrodingerontg",
 
   supply:   "",
 };
@@ -69,7 +69,7 @@ const CONFIG = {
 
   if (!isValid) {
     box.classList.add("is-pending");
-    text.textContent = "DizqV61r74gU6f7LA9F14rX6NyMSdw4NmX4Zgdg7pump";
+    text.textContent = "TBA";
     btnText.textContent = CONFIG.twitter ? "Follow" : "Soon";
     btn.addEventListener("click", () => {
       if (!CONFIG.twitter) return;
