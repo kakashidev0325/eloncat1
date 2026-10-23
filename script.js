@@ -11,7 +11,7 @@
    ───────────────────────────────────────────────────────────── */
 const CONFIG = {
   // Solana mint address. Leave "" until the real $SCHRODINGER mint is published.
-  contract: "",
+  contract: "99W3EEgNgJr8tcw6PMhCyJ93efcFbVN5DnYZuVGrpump",
 
   // Trading + chart links
   buy:      "",
@@ -19,7 +19,7 @@ const CONFIG = {
   scan:     "",
 
   // Socials
-  twitter:  "https://x.com/schrodingeronx",
+  twitter:  "https://x.com/schrodingersolx",
   telegram: "https://t.me/schrodingerontg",
 
   supply:   "",
